@@ -1,0 +1,75 @@
+
+body{
+    text-align: center;
+    transition: all 2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#username{
+    margin-bottom: 20px
+}
+#password{
+    
+    margin-bottom: 20px
+}
+p{
+    color: rgb(0, 89, 255);
+    cursor: pointer;
+}
+#login{
+    display: none;
+}
+#register{
+    background-color: rgb(232, 237, 253);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+#exist{
+    display: inline-block;
+    margin-bottom: 1px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 1px solid rgb(96, 152, 255);
+    border-radius: 3px;
+}
+input[type=button]{
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    border:1px solid rgb(89, 89, 147);
+    background-color: rgb(96, 152, 255);
+    color: white;
+}
+input[type=button]:hover{
+    background-color:rgb(55, 55, 215) ;
+}
+
+
+#login{
+    background-color: rgb(232, 237, 253);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+h5{
+    cursor: pointer;
+    color: rgb(0, 89, 255);
+}
+input[type=submit]{
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    border:1px solid rgb(89, 89, 147);
+    background-color: rgb(96, 152, 255);
+    color: white;
+}
+input[type=submit]:hover{
+    background-color:rgb(55, 55, 215) ;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic by Amie</title>
+    <script src="dynamic.js"></script>
+    <link rel="stylesheet" href="dynamic.css">
+
+</head>
+<body>
+
+
+<div id="register">
+    <h1>Register</h1>
+    <form action="#"> 
+    <input type="text" name="username" placeholder="User_Name " id="name" required>
+    <br> <br>
+    
+    <input type="password" name="password" placeholder="Password" id="pass" required>
+    <br><br>
+    <input type="password" name="con_password" placeholder="Confirm_Password" id="con_pass" required>
+    <br><br>
+    <input type="button" value="Register" onclick=register()> <br><br>
+    <p id="exist">Do you have existing account?</p>
+    <input type="button" value="Login" onclick=logi()>
+    <br>
+
+    </form>
+</div>
+
+
+<div id="login">
+    <h1>Login</h1>
+    <form action="#" onsubmit="return check();"> 
+        
+        <input type="text" name="username" placeholder="Name" id="username" required>
+        <br> 
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <br>
+        <input type="submit" value="Login">
+        <h5 onclick=reg()>don't have an account?, REGISTER NOW</h5>
+        <br>
+        <p id="message"></p>
+        </form>
+</div>
+    
+</body>
+</html>
